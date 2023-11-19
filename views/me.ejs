@@ -1,0 +1,10 @@
+<p>
+  <b>ID:</b>         <%= user.id %><br />
+  <b>Username:</b>   <%= user.username %><br />
+  <b>Name:</b>       <%= user.displayName %><br />
+  <% if (user.email) { %>
+    <b>Email:</b>  <%= user.email %><br />
+  <% } %>
+</p>
+
+<button><a href="logout">Выйти</a></button>
